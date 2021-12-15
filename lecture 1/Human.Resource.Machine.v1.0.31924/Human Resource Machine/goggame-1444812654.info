@@ -1,0 +1,33 @@
+{
+    "buildId": "51509271649757188",
+    "clientId": "49112306177064941",
+    "gameId": "1444812654",
+    "language": "neutral",
+    "languages": [
+        "*"
+    ],
+    "name": "Human Resource Machine",
+    "playTasks": [
+        {
+            "category": "game",
+            "isPrimary": true,
+            "languages": [
+                "*"
+            ],
+            "name": "Human Resource Machine",
+            "path": "Human Resource Machine.exe",
+            "type": "FileTask"
+        },
+        {
+            "category": "document",
+            "languages": [
+                "*"
+            ],
+            "link": "http://www.gog.com/support/human_resource_machine",
+            "name": "Support",
+            "type": "URLTask"
+        }
+    ],
+    "rootGameId": "1444812654",
+    "version": 1
+}

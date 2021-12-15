@@ -1,0 +1,47 @@
+{
+    "actions": [
+        {
+            "install": {
+                "action": "savePath",
+                "arguments": {
+                    "savePath": "{userappdata}/Human Resource Machine",
+                    "type": "folder"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "saveFolders"
+        },
+        {
+            "install": {
+                "action": "supportData",
+                "arguments": {
+                    "target": "{userappdata}/Human Resource Machine",
+                    "type": "folder"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "createFolder1"
+        },
+        {
+            "install": {
+                "action": "supportData",
+                "arguments": {
+                    "overwrite": true,
+                    "saveGameData": true,
+                    "source": "{supportDir}/add/settings_en.txt",
+                    "target": "{userappdata}/Human Resource Machine/settings.txt",
+                    "type": "file"
+                }
+            },
+            "languages": [
+                "en-US"
+            ],
+            "name": "copyConfig"
+        }
+    ],
+    "productId": "1444812654"
+}

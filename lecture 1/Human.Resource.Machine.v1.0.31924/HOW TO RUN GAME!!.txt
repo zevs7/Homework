@@ -1,0 +1,5 @@
+To play game, go inside the 'Human Resource Machine' folder, right click and run 'Human Resource Machine' as administrator
+
+If you get any missing dll errors, go inside the _Redist folder and install 'dxwebsetup'
+
+Game is updated to v1.0.31924
